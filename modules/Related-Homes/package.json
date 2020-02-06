@@ -1,0 +1,62 @@
+{
+  "name": "related-homes",
+  "version": "1.0.0",
+  "description": "Related Home Information Component",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "jest",
+    "seed": "node database/index.js",
+    "start": "nodemon ./server/index.js",
+    "react-dev": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9-airbnb-again/Related-Homes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9-airbnb-again/Related-Homes/issues"
+  },
+  "homepage": "https://github.com/9-airbnb-again/Related-Homes#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "mongoose": "^5.8.9",
+    "nodemon": "^1.19.2",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "request": "^2.88.0",
+    "serialize-javascript": ">=2.1.1",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.7",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "jest": "^25.1.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ],
+    "plugins": [
+      "babel-plugin-styled-components"
+    ]
+  }
+}
